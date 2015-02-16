@@ -1,1 +1,15 @@
 @import "bootstrap";
+
+.container {
+  width: 350px;
+//  centre the container
+  margin: 100px auto;
+  padding: 20px;
+  background: black;
+//  transparency
+  background-color: rgba(0, 0, 0, 0.37);
+//  For rounded borders
+  border-radius: 40px;
+//  to center the text
+  text-align: center;
+}
