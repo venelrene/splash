@@ -1,5 +1,26 @@
 @import "bootstrap";
 
+
+// adding a background image to your page
+body {
+  background: url("bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+// Change colour of the font and line height
+  line-height: 1.5;
+  color: white;
+
+}
+
+// Change the <h1> font type and size
+h1 {
+  font-family: 'helvetica neue', Helvetica;
+// this makes the font thinner
+  font-weight: 100;
+  font-size: 60px;
+}
+
 .container {
   width: 350px;
 //  centre the container
