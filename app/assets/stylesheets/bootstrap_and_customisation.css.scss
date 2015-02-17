@@ -1,3 +1,6 @@
+// Add Google fonts from https://www.google.com/fonts
+@import url(http://fonts.googleapis.com/css?family=Exo);
+@import url(http://fonts.googleapis.com/css?family=Nunito);
 @import "bootstrap";
 
 
@@ -13,21 +16,18 @@ body {
 
 }
 
-// Change the <h1> font type and size
 h1 {
-  font-family: 'helvetica neue', Helvetica;
+  font-family: 'Exo', sans-serif;
 // this makes the font thinner
   font-weight: 100;
   font-size: 60px;
 }
 
-body {
-  background: url("bridge.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 
+p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+}
 
 .container {
   width: 350px;
