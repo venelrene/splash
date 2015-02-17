@@ -3,6 +3,7 @@
 
 // adding a background image to your page
 body {
+<<<<<<< HEAD
   background: url("bridge.jpg");
   background-size: cover;
   background-position: center;
@@ -20,6 +21,14 @@ h1 {
   font-weight: 100;
   font-size: 60px;
 }
+=======
+  background: url("code&music.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+>>>>>>> FETCH_HEAD
 
 .container {
   width: 350px;
