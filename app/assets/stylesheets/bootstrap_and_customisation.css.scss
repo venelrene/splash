@@ -1,5 +1,15 @@
 @import "bootstrap";
 
+
+// adding a background image to your page
+body {
+  background: url("code&music.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
 .container {
   width: 350px;
 //  centre the container
